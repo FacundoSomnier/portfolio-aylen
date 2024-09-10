@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "TAN Meringue";
+  src: url("fuentes/TAN\ MERINGUE.ttf") format("truetype");
+}
+
+img {
+  width: 100%;
+  border: 5px solid #d6a163;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #9b4922;
+  border: 1px solid #d6a163;
+  border-radius: 5px;
+  padding: 200px;
+}
+nav div img {
+  background-color: white;
+  border-radius: 5px;
+  padding: 150px 10px 0px 0px;
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background: #9b4922;
+  font-family: "Montserrat", sans-serif;
+}
+
+#inicio,
+#quien,
+#diseños,
+#creacion,
+#formal,
+#cv,
+#contacto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
+  margin: 100px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #d6a163;
+}
+
+#inicio h1 {
+  font-family: "TAN Meringue";
+  font-size: 3em;
+  color: white;
+}
+
+#inicio, #contacto {
+  height: 100vh;
+}
+
+h1 span {
+  font-family: "TAN Meringue";
+}
+
+span {
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+#centrado {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+#enlace {
+  background-color: #d6a163;
+  padding: 4px;
+  border-radius: 5px;
+  border: 2px solid #d6a163;
+  margin: 2px;
+}
+
+.subtext {
+  font-size: 24px;
+}
+
+.parrafo {
+  background-color: rgba(214, 161, 99, 50%);
+  border-radius: 5px;
+  padding: 5px;
+}
